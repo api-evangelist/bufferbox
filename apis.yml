@@ -1,7 +1,24 @@
 aid: bufferbox
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bufferbox.png
 name: Bufferbox
-description: Bufferbox is a company surfaced as a portfolio company of a16z, gv and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: BufferBox was a Waterloo, Ontario startup that operated self-service parcel-pickup
+  lockers for online shoppers, letting people route e-commerce deliveries to a nearby locker
+  and collect them with a PIN. Google acquired BufferBox in November 2012 and wound the service
+  down in early 2015. The company is defunct and operates no developer or API surface; the
+  bufferbox.com and bufferbox.ca domains are parked (resolving to a Bizland placeholder host),
+  so this profile carries no API artifacts. Retained in the API Evangelist network as a
+  historical logistics / last-mile-delivery record.
 url: https://raw.githubusercontent.com/api-evangelist/bufferbox/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,22 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Logistics
+- Parcel Lockers
+- Last Mile Delivery
+- E-commerce
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
